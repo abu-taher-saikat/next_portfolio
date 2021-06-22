@@ -1,0 +1,11 @@
+$red : red;
+$pink : pink;
+$dark : #21243D;
+$secondary : #00A8CC;
+
+
+@mixin normal-heading {
+    font-size: 20px;
+    color: $dark;
+    font-weight: 500;
+}
