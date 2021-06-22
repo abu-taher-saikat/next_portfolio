@@ -1,19 +1,22 @@
-.Header {
-  position: fixed;
-  top: 0; /* Stick it to the top */
-  max-height: 70px;
-  width: 100vw;
+@import "../styles/Documents.scss";
 
+.Header {
+  // position: fixed;
+  top: 0; /* Stick it to the top */
+  // max-height: 70px;
+  width: 100vw;
   display: grid;
   grid-template-areas: "logo nav";
-
-  /* Cosmetics */
-  // background-color: #282c34;
-  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0px;
+  background-color: $secondarDeem;
+  // opacity: 0.5;
+  // background-color: red;
 }
 
 .Logo {
-  // grid-area: logo;
+  grid-area: logo;
+  margin-left: 20%;
+  align-self: center;
   // height: 70px;
   // background-color: #282c34;
 }
@@ -21,43 +24,37 @@
 .Nav {
   display: grid;
   grid-area: nav;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 80px);
   align-items: center;
   justify-items: center;
+  justify-self: end;
+  margin-right: 20%;
+  padding: 10px;
+
 }
 .Nav a {
-  // color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  transition: 0.5s;
-  text-decoration: none;
+  @include normal-paragraph;
+  font-family: $main-font;
 }
 .Nav a:hover {
-  padding: 10px;
   transform: scale(1.1);
-  box-shadow: 0px 2px 0px 0px rgba(255, 0, 76, 0.25);
-  background-color: rgba(255, 0, 43, 0.5);
-  border-radius: 10px;
   cursor: pointer;
 }
 .Nav button {
-  padding: 10px;
   outline: none;
   border: none;
   font-size: 20px;
-  // color: #fff;
   font-weight: 600;
-  background-color: #282c34;
   border-radius: 10px;
   cursor: pointer;
   transition: 70ms;
 }
 
 .Nav button:active {
-  transform: translateY(3px);
-  box-shadow: 0px 2px 0px 0px rgba(255, 0, 76, 0.25);
-  background-color: rgba(255, 0, 43, 0.5);
-  box-shadow: 0px 5px 0px 0px rgba(255, 0, 43, 0.25);
+  // transform: translateY(3px);
+  // box-shadow: 0px 2px 0px 0px rgba(255, 0, 76, 0.25);
+  // background-color: rgba(255, 0, 43, 0.5);
+  // box-shadow: 0px 5px 0px 0px rgba(255, 0, 43, 0.25);
 }
 
 .Burger {
@@ -76,20 +73,31 @@
   transform: scale(1.2);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 620px) {
   .Header {
     grid-template-areas: "logo burger" "nav nav";
   }
   .Nav {
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(4, 30px);
     grid-template-columns: none;
     grid-row-gap: 20px;
+    // background-color: red;
+    background: $secondarDeem;
+    justify-self: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 50px;
+    width: 100%;
 
-    padding: 30px 0 30px;
-    background: rgba(40, 44, 47, 0.95);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+
+    // padding: 30px 0 30px;
+    // background: rgba(40, 44, 47, 0.95);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    // border-bottom-left-radius: 10px;
+    // border-bottom-right-radius: 10px;
   }
   .Burger {
     display: inline;
