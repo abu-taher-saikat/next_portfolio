@@ -1,87 +1,93 @@
-@import './Documents.scss';
+@import "./Documents.scss";
 
-.homepage{
-    // height: 100vh;
-    // height: auto;
-
+.homepage {
+  // height: 100vh;
+  // height: auto;
 }
 
-
 .hero {
-    // display: flex;
+  // display: flex;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: var(--heboo);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1em;
+  height: 80vh;
+
+  .social {
+    display: none;
+    // flex-order: 1;
+  }
+
+  .img {
+    // max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    img {
+      border-radius: 50%;
+      width: 400px;
+    }
+  }
+
+  .content {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    font-family: var(--heboo);
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 1em;
-    height: 80vh;
-
-    .img{
-        // max-width: 300px;
-        text-align: center;
-        margin: 0 auto;
-        img{
-            border-radius: 50%;
-            width: 400px;
-        }
+    h4 {
+      @include basic-heading;
+      text-align: center;
+    }
+    p {
+      @include normal-paragraph;
+      padding-bottom: 1em;
+      text-align: center;
     }
 
-    .content {
-        display: flex;
-        flex-direction: column;
-      h4 {
-        @include basic-heading;
-        text-align: center;
-      }
-      p {
-        @include normal-paragraph;
-        padding-bottom: 1em;
-        text-align: center;
-      }
-
-      button {
-        @include key_button;        
-      }
+    button {
+      @include key_button;
     }
   }
+}
 
+@media screen and (min-width: 620px) {
+  .homepage {
+    @include background_pattern1;
+    height: 90vh;
+    width: 100%;
+  }
 
-  @media screen and (min-width: 620px) {
-      .homepage{
-        @include background_pattern1;
-        height: 90vh;
+  .hero {
+    flex-direction: row-reverse;
+    .social {
+      display: flex;
+      order: 2 !important;
+    }
+    .img {
+      img {
+        // max-width: auto!important;
         width: 100%;
       }
+    }
+    .content {
+      // width: 90%;
+      margin-left: auto;
+      display: flex;
+      align-items: flex-start;
+      padding-right: 20px;
 
-      .hero{
-        flex-direction: row-reverse;
-        .img{
-            img{
-                // max-width: auto!important;
-                width: 100%;
-            }
-        }
-        .content{
-            // width: 90%;
-            margin-left: auto;
-            display: flex;
-            align-items: flex-start;
-            padding-right: 20px;
-
-            h4{
-                text-align: left;
-                color: white;
-            }
-            p{
-                text-align: left;
-            }
-            button{
-                // margin-right: auto!important;
-                margin-right: auto;
-                background-color: red;
-            }
-        }
+      h4 {
+        text-align: left;
+        color: white;
       }
+      p {
+        text-align: left;
+      }
+      button {
+        // margin-right: auto!important;
+        margin-right: auto;
+        background-color: red;
+      }
+    }
   }
+}
