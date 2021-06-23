@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Space, Divider } from 'antd';
-import Link from 'next/Link';
+import Link from 'next/link';
 import styles from '../styles/Hero.module.scss'
 import HeroImage from '../public/codebysaikat.png';
 import {FaFacebookSquare} from 'react-icons/fa'

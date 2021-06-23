@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Sling as Hamburger } from 'hamburger-react'
-import Link from 'next/Link';
+import Link from 'next/link';
 import styles from "../styles/Header.module.scss";
 import { CSSTransition } from "react-transition-group";
 
