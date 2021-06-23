@@ -6,7 +6,6 @@
 }
 
 .hero {
-  // display: flex;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -18,11 +17,9 @@
 
   .social {
     display: none;
-    // flex-order: 1;
   }
 
   .img {
-    // max-width: 300px;
     text-align: center;
     margin: 0 auto;
     img {
@@ -40,12 +37,13 @@
     }
     p {
       @include normal-paragraph;
-      padding-bottom: 1em;
+      // padding-bottom: 1em;
       text-align: center;
     }
 
     button {
       @include key_button;
+      margin-top: 2em;
     }
   }
 }
@@ -75,18 +73,93 @@
       display: flex;
       align-items: flex-start;
       padding-right: 20px;
+      padding-left: 1em;
 
       h4 {
         text-align: left;
-        color: white;
+        // color: white;
       }
       p {
         text-align: left;
+        max-width: 1200px;
       }
       button {
         // margin-right: auto!important;
         margin-right: auto;
-        background-color: red;
+        // background-color: red;
+      }
+    }
+
+
+    // social
+    .social{
+      ul{
+        li{
+          a{
+            font-size: 2em;
+            color: $main_color;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media screen and (min-width: 960px) {
+  .homepage {
+    // @include background_pattern1;
+    // height: 90vh;
+    // width: 100%;
+  }
+
+  .hero {
+    // flex-direction: row-reverse;
+    .social {
+      // display: flex;
+      // order: 2 !important;
+    }
+    .img {
+      img {
+        // max-width: auto!important;
+        width: 100%;
+      }
+    }
+    .content {
+      // width: 90%;
+      margin-left: auto;
+      display: flex;
+      align-items: flex-start;
+      padding-right: 20px;
+      padding-left: 3em;
+
+      h4 {
+        text-align: left;
+        // color: white;
+      }
+      p {
+        text-align: left;
+        max-width: 1200px;
+      }
+      button {
+        // margin-right: auto!important;
+        margin-right: auto;
+        // background-color: red;
+      }
+    }
+
+
+    // social
+    .social{
+      ul{
+        li{
+          a{
+            font-size: 2em;
+            color: $main_color;
+          }
+        }
       }
     }
   }
