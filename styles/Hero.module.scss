@@ -1,8 +1,12 @@
 @import "./Documents.scss";
 
 .homepage {
-  // height: 100vh;
-  // height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  font-family: $main-font;
+  // overflow-x: hidden;
 }
 
 .hero {
@@ -13,7 +17,7 @@
   width: 90%;
   margin: 0 auto;
   padding-top: 1em;
-  height: 80vh;
+  // height: 80vh;
 
   .social {
     display: none;
@@ -22,6 +26,7 @@
   .img {
     text-align: center;
     margin: 0 auto;
+    z-index: -5;
     img {
       border-radius: 50%;
       width: 400px;
@@ -37,7 +42,6 @@
     }
     p {
       @include normal-paragraph;
-      // padding-bottom: 1em;
       text-align: center;
     }
 
@@ -47,6 +51,15 @@
     }
   }
 }
+
+
+// .Skills{
+//   position: relative;
+//   margin : 0 auto;
+//   height: 600px;
+//   width: 90%;
+//   // overflow-x: hidden;
+// }
 
 @media screen and (min-width: 620px) {
   .homepage {
@@ -63,12 +76,10 @@
     }
     .img {
       img {
-        // max-width: auto!important;
         width: 100%;
       }
     }
     .content {
-      // width: 90%;
       margin-left: auto;
       display: flex;
       align-items: flex-start;
@@ -77,16 +88,13 @@
 
       h4 {
         text-align: left;
-        // color: white;
       }
       p {
         text-align: left;
         max-width: 1200px;
       }
       button {
-        // margin-right: auto!important;
         margin-right: auto;
-        // background-color: red;
       }
     }
 

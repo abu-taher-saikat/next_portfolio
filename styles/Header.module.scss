@@ -8,6 +8,7 @@
   grid-template-areas: "logo nav";
   // padding: 10px 0px;
   background-color: $background_one;
+
 }
 
 .Logo {
@@ -95,12 +96,12 @@
 
 .NavAnimation-enter {
   opacity: 0;
-  // transform: scale(0.5);
+  transform: scale(0.5);
 }
 .NavAnimation-enter-active {
   opacity: 1;
-  // transform: translateX(0);
-  // transition: opacity 350ms, transform 350ms;
+  transform: translateX(0);
+  transition: opacity 350ms, transform 350ms;
 }
 .NavAnimation-exit {
   opacity: 1;

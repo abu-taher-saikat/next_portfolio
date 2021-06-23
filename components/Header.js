@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import { Sling as Hamburger } from 'hamburger-react'
 import Link from 'next/Link';
