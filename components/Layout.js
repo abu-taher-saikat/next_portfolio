@@ -2,10 +2,11 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Header from './Header';
 import Styles from '../styles/Layout.module.scss';
+import Navbar from './Navbar';
 
 
 export default function Layout({title, keywords, description, children}) {
-    const router = useRouter();
+    // const router = useRouter();
 
      return (
          <div>
@@ -16,7 +17,7 @@ export default function Layout({title, keywords, description, children}) {
              </Head>
 
              {/* <Header /> */}
-            
+                <Navbar />
              {/* {router.pathname === '/' && <Showcase />} */}
              <div className={Styles.container}>
                 {children}
