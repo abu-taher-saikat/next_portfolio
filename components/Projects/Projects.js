@@ -24,21 +24,19 @@ const Projects = () => {
 
     return (
         <div className={styles.projects}>
-                {/* <Space> */}
-                <section className={styles.menu}>
-                    <div className={styles.title}>
-                        <h2>Project Showcase</h2>
-                        <div className={styles.underline}></div>
-                    </div>
-                    <Space style={{display : "flex", flexDirection : "column"}} size="large" >
-                        <Categories categories={categories} filterItems={filterItems} />
-                        <Space>
-                            <Menu items={menuItems} />
-                        </Space>
+            <section className={styles.menu}>
+                <div className={styles.title}>
+                    <h2>Project Showcase</h2>
+                    <div className={styles.underline}></div>
+                </div>
+                <Space style={{display : "flex", flexDirection : "column"}} size="large" >
+                    <Categories categories={categories} filterItems={filterItems} />
+                    <Space>
+                        <Menu items={menuItems} />
                     </Space>
-                </section>
-                {/* </Space> */}
-            </div>
+                </Space>
+            </section>
+        </div>
     )
 }
 

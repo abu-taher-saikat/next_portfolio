@@ -3,8 +3,12 @@
 
 .projects {
   font-family: $main-font;
-  width: 85%;
+  background-color: $background_one;
+}
+.menu{
+  width: 90%;
   margin: 0 auto;
+  padding: 2em 0;
 }
 .title {
     text-align: center;
@@ -21,6 +25,10 @@
     margin: 0.5em 0.5em;
     min-width: 5em;
     cursor: pointer;
+    color: white;
+    background-color: $key_color;
+    font-size: 1.1em;
+    border-radius: 2px;
     }
 
 .sectionCenter {
