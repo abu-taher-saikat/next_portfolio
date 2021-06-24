@@ -1,0 +1,113 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "title": "Proshop Mern",
+        "category": "mern",
+        "github" : "https://github.com/saikat1095/proshop_mern",
+        "desc": "Proshop is a full stack web app, It is build with react redux nodejs express and mongodb",
+        "image": "/images/proshop.jpg",
+        "live" : ""
+      },
+      {
+        "id": "2",
+        "title": "Mobile First Landing Page",
+        "category": "front end",
+        "github" : "",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://mobile-first-approch.netlify.app/"
+      },
+      {
+        "id": "3",
+        "title": "Vanila Business",
+        "category": "front end",
+        "github" : "",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://vanila-final.netlify.app/"
+      },
+      {
+        "id": "4",
+        "title": "Travel",
+        "category": "front end",
+        "github" : "",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "5",
+        "title": "Complete Node js blog",
+        "category": "front end",
+        "github" : "https://github.com/saikat1095/Complete-nodejs-blog",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "6",
+        "title": "Node Js Blog",
+        "category": "front end",
+        "github" : "https://github.com/saikat1095/Complete-NotePad",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "7",
+        "title": "React Portfolio",
+        "category": "react",
+        "github" : "https://github.com/saikat1095/Complete-NotePad",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "8",
+        "title": "React Expence Tracker",
+        "category": "react",
+        "github" : "https://github.com/saikat1095/react-expence-tracker",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "8",
+        "title": "React Image Gallery",
+        "category": "tailwind",
+        "github" : "https://github.com/saikat1095/tailwind-react-image-gellary",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "9",
+        "title": "React Movie Database",
+        "category": "tailwind",
+        "github" : "https://github.com/saikat1095/react_movie_database",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "10",
+        "title": "Node js Story Book",
+        "category": "node",
+        "github" : "https://github.com/saikat1095/storybooks",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      },
+      {
+        "id": "11",
+        "title": "Node js Ejs",
+        "category": "node",
+        "github" : "https://github.com/saikat1095/jwt-net-ninja-ejs",
+        "desc": "Featuring deep cuts, party anthems and remixes nostalgic songs from two of the best decades of music with the very best music from the 90's and 2000's",
+        "image": "/images/proshop.jpg",
+        "live" : "https://saikat-travel.netlify.app/"
+      }
+     
+    ]
+  }

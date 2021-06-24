@@ -1,12 +1,12 @@
 const menu = [
     {
       id: 1,
-      title: 'Mern Stack',
+      title: 'Proshop Mern',
       category: 'mern',
-      price: 15.99,
       img: 'http://unsplash.it/400?random&gravity=center',
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
-      github : 'https://github.com/saikat1095/node-ja-masterclass'
+      github : 'https://github.com/saikat1095/node-ja-masterclass',
+      live : ''
     },
     {
       id: 2,
