@@ -1,0 +1,56 @@
+@import "./Documents.scss";
+
+
+.projects {
+  font-family: $main-font;
+  width: 85%;
+  margin: 0 auto;
+}
+.title {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectFilterBtn {
+    border: none;
+    margin: 0.5em 0.5em;
+    min-width: 5em;
+    cursor: pointer;
+    }
+
+.sectionCenter {
+    // display: grid;
+    // grid-template-columns: repeat(12, auto);
+    // grid-auto-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.preCard{
+    // grid-column: 1/12;
+    // grid-column: span 12;
+}
+
+.card{
+    width: 100%;
+
+}
+
+.photo {
+    height: 200px;
+    width: 100%;
+}
+
+
+@media screen and (min-width : 620px) {
+    .card{
+        width: 300px;
+        margin: 10px;
+    }
+}
