@@ -8,6 +8,8 @@ import styles from '../styles/Projects.module.scss';
 export default function Home() {
   return (
     <>
+
+
       <Layout>
         <Hero />
         <Skills />

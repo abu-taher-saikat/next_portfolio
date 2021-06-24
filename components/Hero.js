@@ -8,6 +8,7 @@ import {FaFacebookSquare} from 'react-icons/fa'
 import {SiFiverr} from 'react-icons/si'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {FiInstagram} from 'react-icons/fi'
+import {FaGithub} from 'react-icons/fa';
 
 
 
@@ -29,10 +30,11 @@ const Hero = () => {
         </div>
         <Space className={styles.social}>
           <ul>
-            <li><Link href="/facebook"><a><FaFacebookSquare /></a></Link></li>
-            <li><Link href="/fiverr"><a><SiFiverr /></a></Link></li>
-            <li><Link href="/linkedin"><a><AiFillLinkedin /></a></Link></li>
-            <li><Link href="/instagram"><a><FiInstagram /></a></Link></li>
+            <li><Link href="/facebook"><a><FaFacebookSquare className={styles.facebook} /></a></Link></li>
+            <li><Link href="/fiverr"><a><SiFiverr className={styles.fiverr} /></a></Link></li>
+            <li><Link href="/linkedin"><a><AiFillLinkedin className={styles.linkedin} /></a></Link></li>
+            <li><Link href="/instagram"><a><FiInstagram className={styles.instagram} /></a></Link></li>
+            <li><Link href="/github"><a><FaGithub className={styles.github} /></a></Link></li>
           </ul>
         </Space>
     </Space>
