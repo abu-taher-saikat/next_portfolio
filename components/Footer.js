@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer className={styles.footerDistributed}>
                 <div className={styles.footerLeft}>
-                    <h3>CodeBy<span>Saikat.com</span></h3>
+                    <h3>CodeBySaikat<span>.com</span></h3>
                     <p className={styles.footerLinks}>
                         <Link href="/"><a>Home</a></Link>
                         ·
