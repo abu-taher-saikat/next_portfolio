@@ -26,7 +26,7 @@ const Projects = () => {
         <div className={styles.projects}>
             <section className={styles.menu}>
                 <div className={styles.title}>
-                    <h2>Project Showcase</h2>
+                    <h2>Project Showcases</h2>
                     <div className={styles.underline}></div>
                 </div>
                 <Space style={{display : "flex", flexDirection : "column"}} size="large" >
