@@ -13,10 +13,10 @@ const { Meta } = Card;
 const Menu = ({ items }) => {
   return (
     <Space className={styles.sectionCenter}>
-      {items.map((menuItem) => {
+      {items.map((menuItem, index) => {
         const { id, title, img, desc, price, github } = menuItem;
         return (
-            <div key={id} className={styles.preCard}>
+            <div key={index} className={styles.preCard}>
                 <Card
                     key={id} className={styles.card}
                     cover={
