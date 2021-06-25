@@ -32,12 +32,12 @@ const Menu = ({ items }) => {
                           alt={title}
                         ></Image>
                     }
-                    actions={[
-                        <Tooltip title="Click to get Code">
-                            <GithubOutlined />
-                        </Tooltip>,
-                        <EllipsisOutlined />,
-                    ]}
+                    // actions={[
+                    //     <Tooltip title="Click to get Code">
+                    //         <GithubOutlined key={github ? github : ''} />
+                    //     </Tooltip>,
+                    //     <EllipsisOutlined key={live ? live : ''} />,
+                    // ]}
                 >
                     <Meta
                         avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
