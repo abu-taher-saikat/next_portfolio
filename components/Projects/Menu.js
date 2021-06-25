@@ -34,9 +34,9 @@ const Menu = ({ items }) => {
                     }
                     actions={[
                         <Tooltip title="Click to get Code">
-                            <GithubOutlined key="github" />
+                            <GithubOutlined />
                         </Tooltip>,
-                        <EllipsisOutlined key="ellipsis" />,
+                        <EllipsisOutlined />,
                     ]}
                 >
                     <Meta
