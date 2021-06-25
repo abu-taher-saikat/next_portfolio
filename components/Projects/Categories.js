@@ -7,7 +7,7 @@ const Categories = ({ categories, filterItems }) => {
     <div className={styles.btnContainer}>
       {categories.map((category, index) => {
         return (
-            <Space size="large">
+            <Space key={index} size="large">
                 <button
                     type="button"
                     className={styles.projectFilterBtn}
